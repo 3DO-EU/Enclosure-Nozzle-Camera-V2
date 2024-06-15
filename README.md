@@ -107,6 +107,7 @@ The camera system supports various controls and options, primarily managed via V
 
 - PTZ controls (`pan_absolute`, `tilt_absolute`, `zoom_absolute`) are used to crop the image. All 30fps streams are downscaled to 4K, and all 60fps streams are downscaled to 1080p. To use the crop feature, you need to select a downscaled stream.
 
+
 ## FAQ
 - **Does it work in an enclosed printer?**
 
