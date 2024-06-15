@@ -60,7 +60,52 @@ Wire no. 5 is an optional shield/drain wire. Though optional, its installation i
 </br>
 
 ## Software
+
 The camera functions as a standard UVC web camera and is compatible with Linux, Windows, and Mac. For streaming, we recommend using [mainsail](https://github.com/mainsail-crew/mainsail) and [crowsnest](https://github.com/mainsail-crew/crowsnest).
+
+The camera system supports various controls and options, primarily managed via V4l2-ctl commands. Below are the detailed controls and their options available through V4l2-ctl:
+
+### User Controls
+
+| Control                     | Details                                                                 |
+|-----------------------------|-------------------------------------------------------------------------|
+| **brightness**              | min=0, max=64, step=1, default=15                                       |
+| **contrast**                | min=0, max=95, step=1, default=4                                        |
+| **saturation**              | min=0, max=100, step=1, default=70                                      |
+| **hue**                     | min=-2000, max=2000, step=1, default=0                                  |
+| **white_balance_automatic** | default=1                                                               |
+| **gamma**                   | min=1, max=300, step=1, default=115                                     |
+| **gain**                    | (ISO control) min=0, max=480, step=1, default=0                         |
+| **power_line_frequency**    | min=0, max=2, default=1                                                 |
+|                             | 0: Disabled                                                             |
+|                             | 1: 50 Hz                                                                |
+|                             | 2: 60 Hz                                                                |
+| **white_balance_temperature** | min=2800, max=6500, step=1, default=4600, flags=inactive              |
+| **sharpness**               | min=1, max=7, step=1, default=1                                         |
+| **backlight_compensation**  | min=0, max=2, step=1, default=1                                         |
+|                             | 0: LED off                                                              |
+|                             | 1: LED on when stream is open                                           |
+|                             | 2: LED always on                                                        |
+
+### Camera Controls
+
+| Control                    | Details                                                                  |
+|----------------------------|--------------------------------------------------------------------------|
+| **auto_exposure**          | min=0, max=3, default=3                                                  |
+|                            | 1: Manual Mode                                                           |
+|                            | 3: Aperture Priority Mode                                                |
+| **exposure_time_absolute** | min=3, max=2047, step=1, default=166, flags=inactive                     |
+| **pan_absolute**           | min=-648000, max=648000, step=3600, default=0                            |
+| **tilt_absolute**          | min=-648000, max=648000, step=3600, default=0                            |
+| **focus_absolute**         | min=0, max=1023, step=1, default=0, flags=inactive                       |
+| **focus_automatic_continuous** | default=0                                                           |
+| **zoom_absolute**          | min=0, max=60, step=1, default=0                                         |
+
+**Notes:**
+
+- `exposure_time_absolute` controls the shutter speed and can only be set when `auto_exposure` is in manual mode.
+
+- PTZ controls (`pan_absolute`, `tilt_absolute`, `zoom_absolute`) are used to crop the image. All 30fps streams are downscaled to 4K, and all 60fps streams are downscaled to 1080p. To use the crop feature, you need to select a downscaled stream.
 
 ## FAQ
 - **Does it work in an enclosed printer?**
