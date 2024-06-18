@@ -10,5 +10,5 @@ To ensure our community members get credit and for easier maintenance, all mount
 
 | Printer                  | Camera Type         | FPC Type           | Designer     | Printables Link                                                                                  |
 |--------------------------|---------------------|--------------------|--------------|--------------------------------------------------------------------------------------------------|
-| Voron 2.4 Stealth Burner | Nozzle Camera Glued | 25cm LED & No LED  | Olof Ogland  | [3DO Nozzle Camera for Stealthburner](https://www.printables.com/model/911230-3do-nozzle-camera-for-stealthburner) |
-| VzBot | Nozzle Camera Glued | 10cm LED | Jochen Ullrich | [3DO Nozzle Camera V2 for VzBot](https://www.printables.com/model/915664-3do-nozzle-camera-v2-for-vzbot) |
+| Voron 2.4 Stealth Burner | Nozzle Camera Glued | 25cm LED & No LED  | Olof Ogland  | [3DO Nozzle camera V2 for Stealthburner](https://www.printables.com/model/911230-3do-nozzle-camera-for-stealthburner) |
+| VzBot | Nozzle Camera Glued | 5cm LED | Jochen Ullrich | [3DO Nozzle Camera V2 for VzBot](https://www.printables.com/model/915664-3do-nozzle-camera-v2-for-vzbot) |
