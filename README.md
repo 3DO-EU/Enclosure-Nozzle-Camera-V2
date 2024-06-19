@@ -20,6 +20,20 @@ Introducing the 3DO Enclosure & Nozzle Camera V2, a modular camera system design
 ## Modular System Overview
 The modular design allows for easy customization to suit various 3D printing setups. The DSP PCB remains consistent across all configurations, simplifying inventory and setup changes.
 
+## IMPORTANT - Camera Sensor PCB Orientation
+
+The small connector in our modular system allows for the possibility of incorrect orientation when mounting the camera sensor, which can potentially DAMAGE the camera.
+
+**Please note the following when mounting the sensor/FPC/DSP to each other:**
+
+- **Keep an eye on the white dot on the silkscreen.**
+- When mounted, the white dots on both the camera sensor PCB and the DSP PCB should touch or "kiss" each other.
+
+This ensures correct alignment and prevents damage to the components.           
+
+<img src="./images/pcb_alignment_marker.png">                                                                                                                                                                                     
+
+
 ## FPC Cable Options
 - 5cm
 - 10cm
