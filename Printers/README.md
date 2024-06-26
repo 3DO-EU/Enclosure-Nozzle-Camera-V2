@@ -14,3 +14,4 @@ To ensure our community members get credit and for easier maintenance, all mount
 | VzBot | Nozzle Camera Glued | 5cm LED | Jochen Ullrich | [3DO Nozzle Camera V2 for VzBot](https://www.printables.com/model/915664-3do-nozzle-camera-v2-for-vzbot) |
 | V-core 4 | Nozzle Camera Glued | 10cm LED | Dennis Jespersen| [EVA 3DO nozzle cam V2 setup for V-core 4](https://www.printables.com/model/922752-eva-3do-nozzle-cam-setup-v2-for-v-core-4) |
 | Ratrig / Voron | Enclosure Camera | N/A | Dennis Jespersen| [3DO usb cam V2 Mount for enclosure](https://www.printables.com/model/917664-3do-usb-cam-v2-mount-for-enclosure) |
+| VzBot | Nozzle Camera Glued | 10cm LED | Kenneth Sørensen| [VzBot WaterCooled 3DO cam duct + mount](https://www.printables.com/model/923972-vzbot-watercooled-3do-cam-duct-mount) |
