@@ -13,7 +13,7 @@ Updating the firmware is done at your own risk and responsibility. Ensure you fo
 To run the firmware tool, the following command can be used:
 
 ```
-wget -qO- https://raw.githubusercontent.com/3DO-EU/Enclosure-Nozzle-Camera-V2/main/Firmware/run_tool.sh | bash
+bash <(wget -qO- https://raw.githubusercontent.com/3DO-EU/Enclosure-Nozzle-Camera-V2/main/Firmware/run_tool.sh)
 ```
 
 ## Firmware Update 06/08/2024
