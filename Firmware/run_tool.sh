@@ -37,7 +37,7 @@ echo "Detected architecture: $ARCH"
 echo "Downloading file: $FILE"
 
 # Download the appropriate file
-URL="https://raw.githubusercontent.com/3DO-EU/Enclosure-Nozzle-Camera-V2/main/Firmware/FIRMWARE_TOOL/$FILE"
+URL="https://raw.githubusercontent.com/3DO-EU/Enclosure-Nozzle-Camera-V2/main/Firmware/FW_TOOL/$FILE"
 wget "$URL" -O "$FILE"
 
 # Check if the file was downloaded successfully
