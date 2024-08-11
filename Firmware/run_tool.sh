@@ -37,8 +37,8 @@ echo "Detected architecture: $ARCH"
 echo "Downloading file: $FILE"
 
 # Download the appropriate file
-URL="https://raw.githubusercontent.com/3DO-EU/Enclosure-Nozzle-Camera-V2/main/Firmware/FW_TOOL/$FILE"
-wget "$URL" -O "/tmp/$FILE"
+URL="https://raw.githubusercontent.com/3DO-EU/Enclosure-Nozzle-Camera-V2/main/Firmware/FIRMWARE_TOOL/$FILE"
+wget "$URL" -O "$FILE"
 
 # Check if the file was downloaded successfully
 if [ $? -ne 0 ]; then
@@ -47,16 +47,18 @@ if [ $? -ne 0 ]; then
 fi
 
 # Make the file executable
-chmod +x "/tmp/$FILE"
+chmod +x "$FILE"
 
 # Debug output before running the executable
 echo "Running the executable: $FILE"
 
 # Run the executable
-"/tmp/$FILE"
+./"$FILE"
 
 # Check if the executable ran successfully
 if [ $? -ne 0 ]; then
     echo "Failed to run the executable: $FILE"
     exit 1
 fi
+
+echo "Execution completed successfully."
