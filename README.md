@@ -141,7 +141,7 @@ Example of folding FPC:
 
 ## Where to Buy
 ### EU / UK
-<a alt="3DO" href="https://3do.eu/"><img src="https://3do.dk/img/logo-1694603603.jpg" width="200"></a>
+<a alt="3DO" href="https://3do.eu/"><img src="https://3do.dk/img/logo-1724678217.jpg" width="200"></a>
 
 ### USA
 <a alt="Fabreeko" href="https://www.fabreeko.com/"><img src="https://cdn.shopify.com/s/files/1/0266/5001/7990/files/Fabreeko_Logo_ecf1536e-3074-4a0e-9306-87ca89f1abbd_320x.png" width="200"></a>
