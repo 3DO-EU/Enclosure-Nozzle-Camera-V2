@@ -18,3 +18,4 @@ To ensure our community members get credit and for easier maintenance, all mount
 | Ratrig / Voron | Enclosure Camera | N/A | Dennis Jespersen| [3DO usb cam V2 Mount for enclosure](https://www.printables.com/model/917664-3do-usb-cam-v2-mount-for-enclosure) |
 | Focus tool | Enclosure Camera | N/A | Dennis Jespersen| [3DO Enclosure CAM focus adjuster](https://www.printables.com/model/945044-3do-enclosure-cam-focus-adjuster) |
 | VzBot | Nozzle Camera Glued | 10cm LED | Kenneth Sørensen| [VzBot WaterCooled 3DO cam duct + mount](https://www.printables.com/model/923972-vzbot-watercooled-3do-cam-duct-mount) |
+| Prusa MK4/MK4S | Nozzle Camera Glued | 5cm LED | Michael | [Nozzle Cam Mount Prusa MK4/MK4S for 3DO Nozzle Cam V2](https://www.printables.com/model/1077259-nozzle-cam-mount-prusa-mk4mk4s-for-3do-nozzle-cam) |
