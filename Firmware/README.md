@@ -15,6 +15,10 @@ To run the firmware tool, the following command can be used:
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/3DO-EU/Enclosure-Nozzle-Camera-V2/main/Firmware/run_tool.sh)
 ```
+For RatOs use
+```
+bash <(wget -qO- https://raw.githubusercontent.com/3DO-EU/Enclosure-Nozzle-Camera-V2/main/Firmware/run_tool_ratos.sh)
+```
 
 *In the event that the script encounters difficulties identifying your specific Linux architecture, alternative options are available. You can locate the appropriate binary files within the FW_TOOL directory. Additionally, for Windows users, a dedicated tool is provided in the same FW_TOOL folder, ensuring compatibility across different operating systems.*
 
