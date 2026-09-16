@@ -1,8 +1,18 @@
 # Design Files
 
-This folder contains CAD files and design documents for the 3DO Enclosure & Nozzle Camera V2. Each file is named to reflect the specific components and assemblies included. Below is a detailed explanation of each file:
+This folder contains CAD files and design documents for the 3DO Enclosure & Nozzle Camera V2.5 and V2. The V2.5 assembly is listed first; the original V2 files are retained below for reference.
 
 ## File Descriptions
+
+### [NC_LED-FPC_PCB_V2.5.step](./NC_LED-FPC_PCB_V2.5.step)
+- **Version**: V2.5
+- **Description**: Nozzle camera assembly with LED FPC and DSP PCB.
+- **Components Included**:
+  - Nozzle Camera
+  - LED FPC
+  - DSP PCB
+
+## V2 Reference Files
 
 ### EC_PCB.step
 - **Description**: This CAD file contains the design of the Enclosure Camera along with the DSP PCB.
@@ -42,7 +52,7 @@ This folder contains CAD files and design documents for the 3DO Enclosure & Nozz
   - Visual representation of the focus range for the glued nozzle camera sensor, helping to understand the fixed focus setup.
 
 ## Usage
-These CAD files and documents are provided to assist in designing and integrating the 3DO Enclosure & Nozzle Camera V2 into your 3D printer setups. You can use these files to:
+These CAD files and documents are provided to assist in designing and integrating the 3DO Enclosure & Nozzle Camera into your 3D printer setups. Select the file for the hardware version you are using. You can use these files to:
 - Design custom mounts and enclosures.
 - Understand the spatial requirements and tolerances of each component.
 - Modify or adapt the designs for specific applications or custom setups.
