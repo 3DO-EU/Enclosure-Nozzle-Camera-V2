@@ -14,6 +14,11 @@ This folder contains CAD files and design documents for the 3DO Enclosure & Nozz
 
 ## V2 Reference Files
 
+### EC_V2.5.step
+- **Description**: This CAD file contains the design of the Enclosure Camera v2.5 sensor.
+- **Components Included**:
+  - Enclosure Camera v2.5
+
 ### EC_PCB.step
 - **Description**: This CAD file contains the design of the Enclosure Camera along with the DSP PCB.
 - **Components Included**:
